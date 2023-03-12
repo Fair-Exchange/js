@@ -1,7 +1,7 @@
 import { Metaplex } from '@/Metaplex';
 import { Operation, OperationHandler, useOperation } from '@/types';
 import { DisposableScope, GmaBuilder } from '@/utils';
-import { Commitment, PublicKey } from '@solana/web3.js';
+import { Commitment, PublicKey } from '@safecoin/web3.js';
 import { toMetadataAccount } from '../accounts';
 import { Metadata, Nft, Sft, toMetadata } from '../models';
 import { findMetadataPda } from '../pdas';

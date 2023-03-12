@@ -1,5 +1,5 @@
-import { PublicKey } from '@solana/web3.js';
-import { MINT_SIZE, ACCOUNT_SIZE, TOKEN_PROGRAM_ID } from '@solana/spl-token';
+import { PublicKey } from '@safecoin/web3.js';
+import { MINT_SIZE, ACCOUNT_SIZE, TOKEN_PROGRAM_ID } from '@safecoin/safe-token';
 import { Metaplex } from '@/Metaplex';
 import { GpaBuilder } from '@/utils';
 import { BigNumber } from '@/types';

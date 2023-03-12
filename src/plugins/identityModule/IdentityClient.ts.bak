@@ -1,4 +1,4 @@
-import { PublicKey, Transaction } from '@solana/web3.js';
+import { PublicKey, Transaction } from '@safecoin/web3.js';
 import nacl from 'tweetnacl';
 import { DriverNotProvidedError } from '@/errors';
 import {

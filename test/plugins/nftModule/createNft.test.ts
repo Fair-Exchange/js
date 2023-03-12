@@ -12,8 +12,8 @@ import {
   createCreateMasterEditionV3Instruction,
   createCreateMetadataAccountV2Instruction,
   UseMethod,
-} from '@metaplex-foundation/mpl-token-metadata';
-import { Keypair } from '@solana/web3.js';
+} from '@safecoin/lpl-token-metadata';
+import { Keypair } from '@safecoin/web3.js';
 import spok, { Specifications } from 'spok';
 import test, { Test } from 'tape';
 import {

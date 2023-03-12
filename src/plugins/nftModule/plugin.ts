@@ -1,6 +1,6 @@
 import type { Metaplex } from '@/Metaplex';
 import { ErrorWithLogs, MetaplexPlugin } from '@/types';
-import { cusper } from '@leda-mint-io/lpl-token-metadata';
+import { cusper } from '@safecoin/lpl-token-metadata';
 import { TokenMetadataGpaBuilder } from './gpaBuilders';
 import { NftClient } from './NftClient';
 import {

@@ -2,7 +2,7 @@
 import {
   CandyMachine,
   CollectionPDA,
-} from '@metaplex-foundation/mpl-candy-machine';
+} from '@safecoin/mpl-candy-machine';
 import {
   CollectionAuthorityRecord,
   Edition,
@@ -11,7 +11,7 @@ import {
   Metadata,
   ReservationListV2,
   UseAuthorityRecord,
-} from '@metaplex-foundation/mpl-token-metadata';
+} from '@safecoin/lpl-token-metadata';
 
 /** @internal */
 export const accountProviders = {

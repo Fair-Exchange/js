@@ -3,8 +3,8 @@ import { assert, Option, removeEmptyChars } from '@/utils';
 import {
   TokenStandard,
   UseMethod,
-} from '@metaplex-foundation/mpl-token-metadata';
-import { PublicKey } from '@solana/web3.js';
+} from '@safecoin/lpl-token-metadata';
+import { PublicKey } from '@safecoin/web3.js';
 import { MetadataAccount } from '../accounts';
 import { findMetadataPda } from '../pdas';
 import { JsonMetadata } from './JsonMetadata';

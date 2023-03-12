@@ -1,5 +1,5 @@
 import { PublicKey } from '@safecoin/web3.js';
-import { Key, PROGRAM_ID } from '@leda-mint-io/lpl-token-metadata';
+import { Key, PROGRAM_ID } from '@safecoin/lpl-token-metadata';
 import { Buffer } from 'buffer';
 import { Metaplex } from '@/Metaplex';
 import { GpaBuilder, padEmptyChars } from '@/utils';

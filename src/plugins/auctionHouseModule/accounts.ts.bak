@@ -4,7 +4,7 @@ import {
   ListingReceipt,
   BidReceipt,
   PurchaseReceipt,
-} from '@metaplex-foundation/mpl-auction-house';
+} from '@safecoin/lpl-auction-house';
 import {
   Account,
   getAccountParsingAndAssertingFunction,

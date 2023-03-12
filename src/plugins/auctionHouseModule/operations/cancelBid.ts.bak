@@ -1,4 +1,4 @@
-import { ConfirmOptions, SYSVAR_INSTRUCTIONS_PUBKEY } from '@solana/web3.js';
+import { ConfirmOptions, SYSVAR_INSTRUCTIONS_PUBKEY } from '@safecoin/web3.js';
 import type { Metaplex } from '@/Metaplex';
 import { TransactionBuilder } from '@/utils';
 import {
@@ -6,7 +6,7 @@ import {
   createCancelBidReceiptInstruction,
   createCancelInstruction,
   createAuctioneerCancelInstruction,
-} from '@metaplex-foundation/mpl-auction-house';
+} from '@safecoin/lpl-auction-house';
 import {
   useOperation,
   Operation,

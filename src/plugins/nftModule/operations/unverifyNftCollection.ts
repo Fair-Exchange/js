@@ -4,7 +4,7 @@ import { TransactionBuilder } from '@/utils';
 import {
   createUnverifyCollectionInstruction,
   createUnverifySizedCollectionItemInstruction,
-} from '@leda-mint-io/lpl-token-metadata';
+} from '@safecoin/lpl-token-metadata';
 import { ConfirmOptions, PublicKey } from '@safecoin/web3.js';
 import { SendAndConfirmTransactionResponse } from '../../rpcModule';
 import {

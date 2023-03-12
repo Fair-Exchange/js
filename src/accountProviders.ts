@@ -11,7 +11,7 @@ import {
   Metadata,
   ReservationListV2,
   UseAuthorityRecord,
-} from '@leda-mint-io/lpl-token-metadata';
+} from '@safecoin/lpl-token-metadata';
 
 /** @internal */
 export const accountProviders = {

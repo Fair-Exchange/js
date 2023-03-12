@@ -2,7 +2,7 @@ import {
   GetProgramAccountsConfig,
   GetProgramAccountsFilter,
   PublicKey,
-} from '@solana/web3.js';
+} from '@safecoin/web3.js';
 import { Buffer } from 'buffer';
 import base58 from 'bs58';
 import BN from 'bn.js';

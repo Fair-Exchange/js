@@ -5,7 +5,7 @@ import {
   MasterEditionV1,
   MasterEditionV2,
   Metadata,
-} from '@leda-mint-io/lpl-token-metadata';
+} from '@safecoin/lpl-token-metadata';
 import {
   Account,
   AccountParser,

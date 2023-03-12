@@ -1,5 +1,5 @@
-import { AccountState } from '@solana/safe-token';
-import { Keypair } from '@solana/web3.js';
+import { AccountState } from '@safecoin/safe-token';
+import { Keypair } from '@safecoin/web3.js';
 import test, { Test } from 'tape';
 import { killStuckProcess, metaplex } from '../../helpers';
 import { refreshToken } from './helpers';

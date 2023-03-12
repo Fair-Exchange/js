@@ -1,5 +1,5 @@
-import { PublicKey } from '@solana/web3.js';
-import { bignum } from '@metaplex-foundation/beet';
+import { PublicKey } from '@safecoin/web3.js';
+import { bignum } from '@safecoin/beet';
 import BN from 'bn.js';
 import { Specification, Specifications } from 'spok';
 import { Test } from 'tape';

@@ -1,6 +1,6 @@
 import { Nft } from '@/index';
-import { UseMethod } from '@metaplex-foundation/mpl-token-metadata';
-import { Keypair } from '@solana/web3.js';
+import { UseMethod } from '@safecoin/lpl-token-metadata';
+import { Keypair } from '@safecoin/web3.js';
 import spok, { Specifications } from 'spok';
 import test, { Test } from 'tape';
 import {

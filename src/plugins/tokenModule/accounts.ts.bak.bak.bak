@@ -9,7 +9,7 @@ import {
   AccountLayout as SplTokenAccountLayout,
   RawMint as SplMintAccount,
   MintLayout as SplMintAccountLayout,
-} from '@solana/spl-token';
+} from '@safecoin/safe-token';
 
 const mintAccountParser: AccountParser<SplMintAccount> = {
   name: 'MintAccount',

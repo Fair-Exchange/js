@@ -1,5 +1,5 @@
 import { Nft, Sft, toMetaplexFile } from '@/index';
-import { Keypair } from '@solana/web3.js';
+import { Keypair } from '@safecoin/web3.js';
 import spok, { Specifications } from 'spok';
 import test, { Test } from 'tape';
 import {

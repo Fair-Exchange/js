@@ -1,4 +1,4 @@
-import { SendTransactionError, TransactionError } from '@solana/web3.js';
+import { SendTransactionError, TransactionError } from '@safecoin/web3.js';
 import type { ConfirmTransactionResponse } from '@/plugins/rpcModule';
 import {
   MetaplexError,

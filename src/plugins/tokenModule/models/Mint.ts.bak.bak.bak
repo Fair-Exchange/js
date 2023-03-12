@@ -78,7 +78,7 @@ export const toMint = (account: MintAccount): Mint => {
   const currency: SplTokenCurrency = {
     symbol: isWrappedSol ? 'SOL' : 'Token',
     decimals: account.data.decimals,
-    namespace: 'spl-token',
+    namespace: 'safe-token',
   };
 
   return {

@@ -9,8 +9,8 @@ import {
 import {
   EndSettingType,
   WhitelistMintMode,
-} from '@metaplex-foundation/mpl-candy-machine';
-import { Keypair } from '@solana/web3.js';
+} from '@safecoin/mpl-candy-machine';
+import { Keypair } from '@safecoin/web3.js';
 import spok, { Specifications } from 'spok';
 import test from 'tape';
 import {

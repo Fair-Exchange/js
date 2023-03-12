@@ -1,4 +1,4 @@
-import { PROGRAM_ID } from '@metaplex-foundation/mpl-candy-machine';
+import { PROGRAM_ID } from '@safecoin/mpl-candy-machine';
 import { CandyMachineGpaBuilder } from './gpaBuilders';
 import { Metaplex } from '@/Metaplex';
 

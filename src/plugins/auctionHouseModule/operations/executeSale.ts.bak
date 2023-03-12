@@ -2,14 +2,14 @@ import {
   ConfirmOptions,
   PublicKey,
   SYSVAR_INSTRUCTIONS_PUBKEY,
-} from '@solana/web3.js';
+} from '@safecoin/web3.js';
 import type { Metaplex } from '@/Metaplex';
 import { TransactionBuilder, Option, DisposableScope } from '@/utils';
 import {
   createAuctioneerExecuteSaleInstruction,
   createExecuteSaleInstruction,
   createPrintPurchaseReceiptInstruction,
-} from '@metaplex-foundation/mpl-auction-house';
+} from '@safecoin/lpl-auction-house';
 import {
   useOperation,
   Operation,

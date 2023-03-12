@@ -1,5 +1,5 @@
 import { Metaplex, Metadata } from '@/index';
-import { Keypair, PublicKey } from '@solana/web3.js';
+import { Keypair, PublicKey } from '@safecoin/web3.js';
 import test, { Test } from 'tape';
 import { metaplex, createNft, killStuckProcess } from '../../helpers';
 

@@ -1,4 +1,4 @@
-import { Creator } from '@leda-mint-io/lpl-token-metadata';
+import { Creator } from '@safecoin/lpl-token-metadata';
 import { assert } from '@/utils';
 import {
   MAX_CREATOR_LIMIT,

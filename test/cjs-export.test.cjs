@@ -1,7 +1,7 @@
 const exported = require('../dist/cjs/index.cjs');
 const { test } = require('tape');
-const { Connection } = require('@solana/web3.js');
-const { LOCALHOST } = require('@metaplex-foundation/amman-client');
+const { Connection } = require('@safecoin/web3.js');
+const { LOCALHOST } = require('@safecoin/amman-client');
 
 test('[cjs] it successfully exports commonjs named exports', (t) => {
   const exportedKeys = Object.keys(exported);

@@ -20,8 +20,8 @@ import {
   createInitializeCandyMachineInstruction,
   createSetCollectionInstruction,
   Creator,
-} from '@metaplex-foundation/mpl-candy-machine';
-import { ConfirmOptions, Keypair, PublicKey } from '@solana/web3.js';
+} from '@safecoin/mpl-candy-machine';
+import { ConfirmOptions, Keypair, PublicKey } from '@safecoin/web3.js';
 import {
   findCollectionAuthorityRecordPda,
   findMasterEditionV2Pda,

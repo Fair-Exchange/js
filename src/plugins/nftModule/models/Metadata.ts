@@ -3,7 +3,7 @@ import { assert, Option, removeEmptyChars } from '@/utils';
 import {
   TokenStandard,
   UseMethod,
-} from '@leda-mint-io/lpl-token-metadata';
+} from '@safecoin/lpl-token-metadata';
 import { PublicKey } from '@safecoin/web3.js';
 import { MetadataAccount } from '../accounts';
 import { findMetadataPda } from '../pdas';

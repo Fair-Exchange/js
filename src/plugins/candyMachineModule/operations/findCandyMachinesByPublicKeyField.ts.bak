@@ -2,7 +2,7 @@ import { UnreachableCaseError } from '@/errors';
 import { Metaplex } from '@/Metaplex';
 import { Operation, OperationHandler, useOperation } from '@/types';
 import { DisposableScope, zipMap } from '@/utils';
-import { Commitment, PublicKey } from '@solana/web3.js';
+import { Commitment, PublicKey } from '@safecoin/web3.js';
 import {
   parseCandyMachineAccount,
   parseCandyMachineCollectionAccount,

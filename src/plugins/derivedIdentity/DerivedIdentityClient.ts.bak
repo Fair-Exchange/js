@@ -1,4 +1,4 @@
-import { Keypair, PublicKey, Transaction } from '@solana/web3.js';
+import { Keypair, PublicKey, Transaction } from '@safecoin/web3.js';
 import nacl from 'tweetnacl';
 import { Buffer } from 'buffer';
 import type { Metaplex } from '@/Metaplex';

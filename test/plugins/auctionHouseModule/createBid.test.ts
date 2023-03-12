@@ -1,4 +1,4 @@
-import { Keypair } from '@solana/web3.js';
+import { Keypair } from '@safecoin/web3.js';
 import test, { Test } from 'tape';
 import spok, { Specifications } from 'spok';
 import { sol, token } from '@/types';
@@ -13,7 +13,7 @@ import {
 } from '../../helpers';
 import { createAuctionHouse } from './helpers';
 import { Bid, findAssociatedTokenAccountPda, Pda } from '@/index';
-import { AuthorityScope } from '@metaplex-foundation/mpl-auction-house';
+import { AuthorityScope } from '@safecoin/lpl-auction-house';
 
 killStuckProcess();
 

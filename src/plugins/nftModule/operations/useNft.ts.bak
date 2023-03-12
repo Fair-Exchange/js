@@ -9,8 +9,8 @@ import {
   useOperation,
 } from '@/types';
 import { TransactionBuilder } from '@/utils';
-import { createUtilizeInstruction } from '@metaplex-foundation/mpl-token-metadata';
-import { ConfirmOptions, PublicKey } from '@solana/web3.js';
+import { createUtilizeInstruction } from '@safecoin/lpl-token-metadata';
+import { ConfirmOptions, PublicKey } from '@safecoin/web3.js';
 import { SendAndConfirmTransactionResponse } from '../../rpcModule';
 import { findAssociatedTokenAccountPda } from '../../tokenModule';
 import {

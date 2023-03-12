@@ -8,8 +8,8 @@ import {
   createSetCollectionInstruction,
   createUpdateAuthorityInstruction,
   createUpdateCandyMachineInstruction,
-} from '@metaplex-foundation/mpl-candy-machine';
-import type { ConfirmOptions, PublicKey } from '@solana/web3.js';
+} from '@safecoin/mpl-candy-machine';
+import type { ConfirmOptions, PublicKey } from '@safecoin/web3.js';
 import isEqual from 'lodash.isequal';
 import {
   findCollectionAuthorityRecordPda,

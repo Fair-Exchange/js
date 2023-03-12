@@ -62,7 +62,7 @@ test('[Amount] it has helpers for certain currencies', (t: Test) => {
 });
 
 test('[Amount] it can create amounts representing SPL tokens', (t: Test) => {
-  t.equal(token(1).currency.namespace, 'spl-token');
+  t.equal(token(1).currency.namespace, 'safe-token');
   amountEquals(t, token(1), 'Token 1');
   amountEquals(t, token(4.5, 2), 'Token 4.50');
   amountEquals(t, token(6.2587, 9, 'DGEN'), 'DGEN 6.258700000');

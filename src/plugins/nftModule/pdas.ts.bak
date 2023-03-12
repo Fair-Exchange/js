@@ -1,4 +1,4 @@
-import { PublicKey } from '@solana/web3.js';
+import { PublicKey } from '@safecoin/web3.js';
 import { Buffer } from 'buffer';
 import { BigNumber, Pda, toBigNumber } from '@/types';
 import { TokenMetadataProgram } from './program';

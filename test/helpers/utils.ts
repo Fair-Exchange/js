@@ -1,4 +1,4 @@
-import { ConfirmOptions } from '@solana/web3.js';
+import { ConfirmOptions } from '@safecoin/web3.js';
 import test from 'tape';
 
 /**

@@ -11,7 +11,7 @@ import {
   SignatureResult,
   Transaction,
   TransactionSignature,
-} from '@solana/web3.js';
+} from '@safecoin/web3.js';
 import type { Metaplex } from '@/Metaplex';
 import {
   getSignerHistogram,

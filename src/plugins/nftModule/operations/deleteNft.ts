@@ -1,7 +1,7 @@
 import { Metaplex } from '@/Metaplex';
 import { Operation, OperationHandler, Signer, useOperation } from '@/types';
 import { TransactionBuilder } from '@/utils';
-import { createBurnNftInstruction } from '@leda-mint-io/lpl-token-metadata';
+import { createBurnNftInstruction } from '@safecoin/lpl-token-metadata';
 import { ConfirmOptions, PublicKey } from '@safecoin/web3.js';
 import { SendAndConfirmTransactionResponse } from '../../rpcModule';
 import { findAssociatedTokenAccountPda, TokenProgram } from '../../tokenModule';

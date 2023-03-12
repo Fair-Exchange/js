@@ -33,7 +33,7 @@ import {
   Signer as Web3Signer,
   Transaction,
   TransactionSignature,
-} from '@solana/web3.js';
+} from '@safecoin/web3.js';
 
 /**
  * This method is necessary to import the Bundlr package on both ESM and CJS modules.

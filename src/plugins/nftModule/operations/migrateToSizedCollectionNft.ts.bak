@@ -7,8 +7,8 @@ import {
   useOperation,
 } from '@/types';
 import { TransactionBuilder } from '@/utils';
-import { createSetCollectionSizeInstruction } from '@metaplex-foundation/mpl-token-metadata';
-import { ConfirmOptions, PublicKey } from '@solana/web3.js';
+import { createSetCollectionSizeInstruction } from '@safecoin/lpl-token-metadata';
+import { ConfirmOptions, PublicKey } from '@safecoin/web3.js';
 import { SendAndConfirmTransactionResponse } from '../../rpcModule';
 import { findCollectionAuthorityRecordPda, findMetadataPda } from '../pdas';
 

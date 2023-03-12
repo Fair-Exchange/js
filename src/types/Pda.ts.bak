@@ -1,4 +1,4 @@
-import { PublicKey, PublicKeyInitData } from '@solana/web3.js';
+import { PublicKey, PublicKeyInitData } from '@safecoin/web3.js';
 import { Buffer } from 'buffer';
 
 export class Pda extends PublicKey {

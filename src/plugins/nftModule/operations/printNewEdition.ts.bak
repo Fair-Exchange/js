@@ -9,8 +9,8 @@ import {
   useOperation,
 } from '@/types';
 import { DisposableScope, TransactionBuilder } from '@/utils';
-import { createMintNewEditionFromMasterEditionViaTokenInstruction } from '@metaplex-foundation/mpl-token-metadata';
-import { ConfirmOptions, Keypair, PublicKey } from '@solana/web3.js';
+import { createMintNewEditionFromMasterEditionViaTokenInstruction } from '@safecoin/lpl-token-metadata';
+import { ConfirmOptions, Keypair, PublicKey } from '@safecoin/web3.js';
 import { SendAndConfirmTransactionResponse } from '../../rpcModule';
 import { findAssociatedTokenAccountPda } from '../../tokenModule';
 import { toOriginalEditionAccount } from '../accounts';

@@ -1,7 +1,7 @@
-import { PublicKey } from '@solana/web3.js';
+import { PublicKey } from '@safecoin/web3.js';
 import { Pda } from '@/types';
 import { TokenProgram } from './program';
-import { ASSOCIATED_TOKEN_PROGRAM_ID } from '@solana/spl-token';
+import { ASSOCIATED_TOKEN_PROGRAM_ID } from '@safecoin/safe-token';
 
 /** @group Pdas */
 export const findAssociatedTokenAccountPda = (

@@ -1,6 +1,6 @@
 import type { Metaplex } from '@/Metaplex';
 import type { MetaplexPlugin } from '@/types';
-import { TOKEN_PROGRAM_ID } from '@solana/safe-token';
+import { TOKEN_PROGRAM_ID } from '@safecoin/safe-token';
 import {
   approveTokenDelegateAuthorityOperation,
   approveTokenDelegateAuthorityOperationHandler,

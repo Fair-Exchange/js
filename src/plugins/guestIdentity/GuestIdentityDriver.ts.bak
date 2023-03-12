@@ -1,4 +1,4 @@
-import { PublicKey, Transaction } from '@solana/web3.js';
+import { PublicKey, Transaction } from '@safecoin/web3.js';
 import { OperationUnauthorizedForGuestsError } from '@/errors';
 import { IdentityDriver } from '../identityModule';
 

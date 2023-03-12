@@ -1,7 +1,7 @@
 import { Metaplex } from '@/Metaplex';
 import { Operation, OperationHandler, Signer, useOperation } from '@/types';
 import { TransactionBuilder } from '@/utils';
-import { createRevokeCollectionAuthorityInstruction } from '@leda-mint-io/lpl-token-metadata';
+import { createRevokeCollectionAuthorityInstruction } from '@safecoin/lpl-token-metadata';
 import { ConfirmOptions, PublicKey } from '@safecoin/web3.js';
 import { SendAndConfirmTransactionResponse } from '../../rpcModule';
 import { findCollectionAuthorityRecordPda, findMetadataPda } from '../pdas';

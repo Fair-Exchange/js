@@ -6,7 +6,7 @@ Please note that this SDK has been re-implemented from scratch and is still in a
 
 ## Installation
 ```sh
-npm install @metaplex-foundation/js @solana/web3.js
+npm install @safecoin/js @safecoin/web3.js
 ```
 
 🔥 **Pro Tip**: Check out our examples and starter kits on the ["JS Examples" repository](https://github.com/metaplex-foundation/js-examples).
@@ -14,11 +14,11 @@ npm install @metaplex-foundation/js @solana/web3.js
 ## Setup
 The entry point to the JavaScript SDK is a `Metaplex` instance that will give you access to its API.
 
-It accepts a `Connection` instance from `@solana/web3.js` that will be used to communicate with the cluster.
+It accepts a `Connection` instance from `@safecoin/web3.js` that will be used to communicate with the cluster.
 
 ```ts
-import { Metaplex } from "@metaplex-foundation/js";
-import { Connection, clusterApiUrl } from "@solana/web3.js";
+import { Metaplex } from "@safecoin/js";
+import { Connection, clusterApiUrl } from "@safecoin/web3.js";
 
 const connection = new Connection(clusterApiUrl("mainnet-beta"));
 const metaplex = new Metaplex(connection);
@@ -27,8 +27,8 @@ const metaplex = new Metaplex(connection);
 On top of that, you can customise who the SDK should interact on behalf of and which storage provider to use when uploading assets. We refer to these as "Identity Drivers" and "Storage Drivers" respectively. You may change these drivers by calling the `use` method on the Metaplex instance like so. We'll see all available drivers in more detail below.
 
 ```ts
-import { Metaplex, keypairIdentity, bundlrStorage } from "@metaplex-foundation/js";
-import { Connection, clusterApiUrl, Keypair } from "@solana/web3.js";
+import { Metaplex, keypairIdentity, bundlrStorage } from "@safecoin/js";
+import { Connection, clusterApiUrl, Keypair } from "@safecoin/web3.js";
 
 const connection = new Connection(clusterApiUrl("mainnet-beta"));
 const wallet = Keypair.generate();
@@ -454,7 +454,7 @@ Let’s have a quick look at the concrete identity drivers available to us.
 The `guestIdentity` driver is the default driver and requires no parameter. It is essentially a `null` driver that can be useful when we don’t need to send any signed transactions.
 
 ```ts
-import { guestIdentity } from "@metaplex-foundation/js";
+import { guestIdentity } from "@safecoin/js";
 
 metaplex.use(guestIdentity());
 ```
@@ -466,8 +466,8 @@ If we try to sign a message or a transaction using this driver, an error will be
 The `keypairIdentity` driver accepts a `Keypair` object as a parameter. This is useful when using the SDK locally such as within CLI applications.
 
 ```ts
-import { keypairIdentity } from "@metaplex-foundation/js";
-import { Keypair } from "@solana/web3.js";
+import { keypairIdentity } from "@safecoin/js";
+import { Keypair } from "@safecoin/web3.js";
 
 // Load a local keypair.
 const keypairFile = fs.readFileSync('/Users/username/.config/solana/id.json');
@@ -482,8 +482,8 @@ metaplex.use(keypairIdentity(keypair));
 The `walletAdapterIdentity` driver accepts a wallet adapter as defined by the [“wallet-adapter” repo from Solana Labs](https://github.com/solana-labs/wallet-adapter). This is useful when using the SDK in a web application that requires the user to manually approve transactions.
 
 ```ts
-import { walletAdapterIdentity } from "@metaplex-foundation/js";
-import { useWallet } from '@solana/wallet-adapter-react';
+import { walletAdapterIdentity } from "@safecoin/js";
+import { useWallet } from '@safecoin/wallet-adapter-react';
 
 const wallet = useWallet();
 metaplex.use(walletAdapterIdentity(wallet));
@@ -574,7 +574,7 @@ By default, it will use the same RPC endpoint used by the `Metaplex` instance as
 You may customise these by passing a parameter object to the `bundlrStorage` method. For instance, here’s how you can use Bundlr on devnet.
 
 ```ts
-import { bundlrStorage } from "@metaplex-foundation/js";
+import { bundlrStorage } from "@safecoin/js";
 
 metaplex.use(bundlrStorage({
     address: 'https://devnet.bundlr.network',
@@ -605,13 +605,13 @@ The `awsStorage` driver uploads assets off-chain to an S3 bucket of your choice.
 This storage driver is not bundled by the JS SDK by default, you first need to install it by running:
 
 ```sh
-npm install @metaplex-foundation/js-plugin-aws
+npm install @safecoin/js-plugin-aws
 ```
 
 Then, to set this up, you need to pass in the AWS client as well as the bucket name you wish to use. For instance:
 
 ```ts
-import { awsStorage } from "@metaplex-foundation/js-plugin-aws";
+import { awsStorage } from "@safecoin/js-plugin-aws";
 import { S3Client } from "@aws-sdk/client-s3";
 
 const awsClient = new S3Client({
@@ -640,7 +640,7 @@ const uri = await metaplex.storage().upload(file);
 The `mockStorage` driver is a fake driver mostly used for testing purposes. It will not actually upload the assets anywhere but instead will generate random URLs and keep track of their content in a local dictionary. That way, once uploaded, an asset can be retrieved using the `download` method.
 
 ```ts
-import { mockStorage } from "@metaplex-foundation/js";
+import { mockStorage } from "@safecoin/js";
 
 metaplex.use(mockStorage());
 ```

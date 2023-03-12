@@ -1,6 +1,6 @@
 import test, { Test } from 'tape';
 import spok from 'spok';
-import { Keypair } from '@solana/web3.js';
+import { Keypair } from '@safecoin/web3.js';
 import {
   metaplex,
   spokSamePubkey,
@@ -15,7 +15,7 @@ import {
   findAuctionHousePda,
   findAuctionHouseTreasuryPda,
 } from '@/index';
-import { AuthorityScope } from '@metaplex-foundation/mpl-auction-house';
+import { AuthorityScope } from '@safecoin/lpl-auction-house';
 import { createAuctionHouse } from './helpers';
 import { AUCTIONEER_ALL_SCOPES } from '@/plugins/auctionHouseModule/constants';
 

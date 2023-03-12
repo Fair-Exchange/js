@@ -1,7 +1,7 @@
 import {
   CandyMachine,
   CollectionPDA,
-} from '@metaplex-foundation/mpl-candy-machine';
+} from '@safecoin/mpl-candy-machine';
 import {
   Account,
   getAccountParsingAndAssertingFunction,

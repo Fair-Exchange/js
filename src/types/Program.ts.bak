@@ -1,4 +1,4 @@
-import { PublicKey } from '@solana/web3.js';
+import { PublicKey } from '@safecoin/web3.js';
 import { Metaplex } from '@/Metaplex';
 import { Cluster } from '@/types';
 import { GpaBuilder } from '@/utils';

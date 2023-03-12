@@ -14,7 +14,7 @@ import { DisposableScope, Option, TransactionBuilder } from '@/utils';
 import {
   createCreateMasterEditionV3Instruction,
   Uses,
-} from '@leda-mint-io/lpl-token-metadata';
+} from '@safecoin/lpl-token-metadata';
 import { ConfirmOptions, Keypair, PublicKey } from '@safecoin/web3.js';
 import { SendAndConfirmTransactionResponse } from '../../rpcModule';
 import { assertNftWithToken, NftWithToken } from '../models';

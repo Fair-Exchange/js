@@ -1,7 +1,7 @@
 import test from 'tape';
 import { killStuckProcess, metaplex } from '../../helpers';
 import { createCandyMachine } from './helpers';
-import { Keypair } from '@solana/web3.js';
+import { Keypair } from '@safecoin/web3.js';
 
 killStuckProcess();
 

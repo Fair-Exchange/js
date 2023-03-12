@@ -2,7 +2,7 @@ import test, { Test } from 'tape';
 import { addAmounts, sol } from '@/types';
 import { metaplex, killStuckProcess, assertThrows } from '../../helpers';
 import { createAuctionHouse } from './helpers';
-import { Keypair } from '@solana/web3.js';
+import { Keypair } from '@safecoin/web3.js';
 
 killStuckProcess();
 

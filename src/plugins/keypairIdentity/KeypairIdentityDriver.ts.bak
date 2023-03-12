@@ -1,4 +1,4 @@
-import { Keypair, PublicKey, Transaction } from '@solana/web3.js';
+import { Keypair, PublicKey, Transaction } from '@safecoin/web3.js';
 import nacl from 'tweetnacl';
 import { KeypairSigner } from '@/types';
 import { IdentityDriver } from '../identityModule';

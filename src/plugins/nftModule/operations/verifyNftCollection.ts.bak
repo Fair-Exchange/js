@@ -4,8 +4,8 @@ import { TransactionBuilder } from '@/utils';
 import {
   createVerifyCollectionInstruction,
   createVerifySizedCollectionItemInstruction,
-} from '@metaplex-foundation/mpl-token-metadata';
-import { ConfirmOptions, PublicKey } from '@solana/web3.js';
+} from '@safecoin/lpl-token-metadata';
+import { ConfirmOptions, PublicKey } from '@safecoin/web3.js';
 import { SendAndConfirmTransactionResponse } from '../../rpcModule';
 import {
   findCollectionAuthorityRecordPda,

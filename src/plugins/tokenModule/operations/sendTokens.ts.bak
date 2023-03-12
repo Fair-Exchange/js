@@ -10,8 +10,8 @@ import {
   useOperation,
 } from '@/types';
 import { DisposableScope, TransactionBuilder } from '@/utils';
-import { createTransferInstruction } from '@solana/safe-token';
-import { ConfirmOptions, PublicKey } from '@solana/web3.js';
+import { createTransferInstruction } from '@safecoin/safe-token';
+import { ConfirmOptions, PublicKey } from '@safecoin/web3.js';
 import { SendAndConfirmTransactionResponse } from '../../rpcModule';
 import { findAssociatedTokenAccountPda } from '../pdas';
 import { TokenProgram } from '../program';

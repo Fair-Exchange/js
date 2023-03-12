@@ -1,7 +1,7 @@
 import { Metaplex } from '@/Metaplex';
 import { Operation, OperationHandler, useOperation } from '@/types';
 import { DisposableScope } from '@/utils';
-import { Commitment, PublicKey } from '@solana/web3.js';
+import { Commitment, PublicKey } from '@safecoin/web3.js';
 import {
   findAssociatedTokenAccountPda,
   toMint,

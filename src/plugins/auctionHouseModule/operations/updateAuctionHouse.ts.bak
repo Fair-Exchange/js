@@ -1,10 +1,10 @@
-import { ConfirmOptions, PublicKey } from '@solana/web3.js';
+import { ConfirmOptions, PublicKey } from '@safecoin/web3.js';
 import {
   AuthorityScope,
   createDelegateAuctioneerInstruction,
   createUpdateAuctioneerInstruction,
   createUpdateAuctionHouseInstruction,
-} from '@metaplex-foundation/mpl-auction-house';
+} from '@safecoin/lpl-auction-house';
 import isEqual from 'lodash.isequal';
 import type { Metaplex } from '@/Metaplex';
 import { useOperation, Operation, Signer, OperationHandler } from '@/types';

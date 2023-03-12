@@ -1,4 +1,4 @@
-import { clusterApiUrl } from '@solana/web3.js';
+import { clusterApiUrl } from '@safecoin/web3.js';
 import test, { Test } from 'tape';
 import { Cluster, resolveClusterFromEndpoint } from '@/index';
 

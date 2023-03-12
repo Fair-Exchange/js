@@ -9,7 +9,7 @@ import {
   useOperation,
 } from '@/types';
 import { DisposableScope, TransactionBuilder } from '@/utils';
-import { createMintNewEditionFromMasterEditionViaTokenInstruction } from '@leda-mint-io/lpl-token-metadata';
+import { createMintNewEditionFromMasterEditionViaTokenInstruction } from '@safecoin/lpl-token-metadata';
 import { ConfirmOptions, Keypair, PublicKey } from '@safecoin/web3.js';
 import { SendAndConfirmTransactionResponse } from '../../rpcModule';
 import { findAssociatedTokenAccountPda } from '../../tokenModule';

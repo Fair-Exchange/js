@@ -12,7 +12,7 @@ import {
   createUpdateMetadataAccountV2Instruction,
   UpdateMetadataAccountArgsV2,
   Uses,
-} from '@leda-mint-io/lpl-token-metadata';
+} from '@safecoin/lpl-token-metadata';
 import { ConfirmOptions, PublicKey } from '@safecoin/web3.js';
 import isEqual from 'lodash.isequal';
 import { SendAndConfirmTransactionResponse } from '../../rpcModule';

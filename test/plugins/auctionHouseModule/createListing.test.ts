@@ -1,5 +1,5 @@
-import { AuthorityScope } from '@metaplex-foundation/mpl-auction-house';
-import { Keypair } from '@solana/web3.js';
+import { AuthorityScope } from '@safecoin/lpl-auction-house';
+import { Keypair } from '@safecoin/web3.js';
 import test, { Test } from 'tape';
 import spok, { Specifications } from 'spok';
 import { sol, token } from '@/types';

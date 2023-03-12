@@ -1,4 +1,4 @@
-import { Keypair } from '@solana/web3.js';
+import { Keypair } from '@safecoin/web3.js';
 import test, { Test } from 'tape';
 import { amman, killStuckProcess, metaplex } from '../../helpers';
 import {

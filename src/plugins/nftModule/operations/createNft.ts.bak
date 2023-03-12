@@ -14,8 +14,8 @@ import { DisposableScope, Option, TransactionBuilder } from '@/utils';
 import {
   createCreateMasterEditionV3Instruction,
   Uses,
-} from '@metaplex-foundation/mpl-token-metadata';
-import { ConfirmOptions, Keypair, PublicKey } from '@solana/web3.js';
+} from '@safecoin/lpl-token-metadata';
+import { ConfirmOptions, Keypair, PublicKey } from '@safecoin/web3.js';
 import { SendAndConfirmTransactionResponse } from '../../rpcModule';
 import { assertNftWithToken, NftWithToken } from '../models';
 import { findMasterEditionV2Pda } from '../pdas';

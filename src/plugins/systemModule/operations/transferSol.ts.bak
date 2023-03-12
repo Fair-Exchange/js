@@ -1,4 +1,4 @@
-import { ConfirmOptions, PublicKey, SystemProgram } from '@solana/web3.js';
+import { ConfirmOptions, PublicKey, SystemProgram } from '@safecoin/web3.js';
 import type { Metaplex } from '@/Metaplex';
 import {
   assertSol,

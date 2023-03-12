@@ -1,4 +1,4 @@
-import { Keypair } from '@solana/web3.js';
+import { Keypair } from '@safecoin/web3.js';
 import { Metaplex } from '@/Metaplex';
 import { MetaplexPlugin } from '@/types';
 import { KeypairIdentityDriver } from './KeypairIdentityDriver';

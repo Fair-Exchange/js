@@ -17,7 +17,7 @@ import {
   Pda,
   Purchase,
 } from '@/index';
-import { Keypair } from '@solana/web3.js';
+import { Keypair } from '@safecoin/web3.js';
 
 killStuckProcess();
 

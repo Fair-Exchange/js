@@ -1,7 +1,7 @@
 import type { Metaplex } from '@/Metaplex';
 import { token } from '@/types';
 import { PartialKeys, Task } from '@/utils';
-import { Metadata } from '@leda-mint-io/lpl-token-metadata';
+import { Metadata } from '@safecoin/lpl-token-metadata';
 import { PublicKey } from '@safecoin/web3.js';
 import { SendTokensInput } from '../tokenModule';
 import { toMintAddress } from './helpers';

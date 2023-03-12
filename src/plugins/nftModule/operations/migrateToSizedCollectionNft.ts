@@ -7,7 +7,7 @@ import {
   useOperation,
 } from '@/types';
 import { TransactionBuilder } from '@/utils';
-import { createSetCollectionSizeInstruction } from '@leda-mint-io/lpl-token-metadata';
+import { createSetCollectionSizeInstruction } from '@safecoin/lpl-token-metadata';
 import { ConfirmOptions, PublicKey } from '@safecoin/web3.js';
 import { SendAndConfirmTransactionResponse } from '../../rpcModule';
 import { findCollectionAuthorityRecordPda, findMetadataPda } from '../pdas';

@@ -14,8 +14,8 @@ import { DisposableScope, Option, TransactionBuilder } from '@/utils';
 import {
   createCreateMetadataAccountV3Instruction,
   Uses,
-} from '@metaplex-foundation/mpl-token-metadata';
-import { ConfirmOptions, Keypair, PublicKey } from '@solana/web3.js';
+} from '@safecoin/lpl-token-metadata';
+import { ConfirmOptions, Keypair, PublicKey } from '@safecoin/web3.js';
 import { SendAndConfirmTransactionResponse } from '../../rpcModule';
 import { findAssociatedTokenAccountPda } from '../../tokenModule';
 import { assertSft, Sft, SftWithToken } from '../models';

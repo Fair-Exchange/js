@@ -12,8 +12,8 @@ import {
   createUpdateMetadataAccountV2Instruction,
   UpdateMetadataAccountArgsV2,
   Uses,
-} from '@metaplex-foundation/mpl-token-metadata';
-import { ConfirmOptions, PublicKey } from '@solana/web3.js';
+} from '@safecoin/lpl-token-metadata';
+import { ConfirmOptions, PublicKey } from '@safecoin/web3.js';
 import isEqual from 'lodash.isequal';
 import { SendAndConfirmTransactionResponse } from '../../rpcModule';
 import { Sft } from '../models';
