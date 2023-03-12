@@ -1,7 +1,7 @@
 import { Metaplex } from '@/Metaplex';
 import { Operation, OperationHandler, Signer, useOperation } from '@/types';
 import { TransactionBuilder } from '@/utils';
-import { createWithdrawFundsInstruction } from '@leda-mint-io/lpl-candy-machine';
+import { createWithdrawFundsInstruction } from '@safecoin/lpl-candy-machine';
 import type { ConfirmOptions } from '@safecoin/web3.js';
 import { SendAndConfirmTransactionResponse } from '../../rpcModule';
 import { CandyMachine } from '../models/CandyMachine';

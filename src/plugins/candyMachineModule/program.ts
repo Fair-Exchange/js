@@ -1,4 +1,4 @@
-import { PROGRAM_ID } from '@leda-mint-io/lpl-candy-machine';
+import { PROGRAM_ID } from '@safecoin/lpl-candy-machine';
 import { CandyMachineGpaBuilder } from './gpaBuilders';
 import { Metaplex } from '@/Metaplex';
 

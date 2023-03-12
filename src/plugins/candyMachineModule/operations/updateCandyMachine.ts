@@ -8,7 +8,7 @@ import {
   createSetCollectionInstruction,
   createUpdateAuthorityInstruction,
   createUpdateCandyMachineInstruction,
-} from '@leda-mint-io/lpl-candy-machine';
+} from '@safecoin/lpl-candy-machine';
 import type { ConfirmOptions, PublicKey } from '@safecoin/web3.js';
 import isEqual from 'lodash.isequal';
 import {

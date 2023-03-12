@@ -7,7 +7,7 @@ import {
   useOperation,
 } from '@/types';
 import { TransactionBuilder } from '@/utils';
-import { createAddConfigLinesInstruction } from '@leda-mint-io/lpl-candy-machine';
+import { createAddConfigLinesInstruction } from '@safecoin/lpl-candy-machine';
 import type { ConfirmOptions } from '@safecoin/web3.js';
 import { SendAndConfirmTransactionResponse } from '../../rpcModule';
 import {

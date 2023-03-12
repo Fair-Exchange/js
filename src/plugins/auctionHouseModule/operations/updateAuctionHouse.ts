@@ -4,7 +4,7 @@ import {
   createDelegateAuctioneerInstruction,
   createUpdateAuctioneerInstruction,
   createUpdateAuctionHouseInstruction,
-} from '@leda-mint-io/lpl-auction-house';
+} from '@safecoin/lpl-auction-house';
 import isEqual from 'lodash.isequal';
 import type { Metaplex } from '@/Metaplex';
 import { useOperation, Operation, Signer, OperationHandler } from '@/types';

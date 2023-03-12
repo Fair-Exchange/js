@@ -1,4 +1,4 @@
-import { cusper } from '@leda-mint-io/lpl-auction-house';
+import { cusper } from '@safecoin/lpl-auction-house';
 import type { Metaplex } from '@/Metaplex';
 import type { ErrorWithLogs, MetaplexPlugin } from '@/types';
 import { AuctionHouseClient } from './AuctionHouseClient';

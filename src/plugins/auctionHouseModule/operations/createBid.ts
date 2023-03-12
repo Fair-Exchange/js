@@ -12,7 +12,7 @@ import {
   createBuyInstruction,
   createPrintBidReceiptInstruction,
   createPublicBuyInstruction,
-} from '@leda-mint-io/lpl-auction-house';
+} from '@safecoin/lpl-auction-house';
 import {
   useOperation,
   Operation,

@@ -3,7 +3,7 @@ import {
   CandyMachineData,
   EndSettingType,
   WhitelistMintMode,
-} from '@leda-mint-io/lpl-candy-machine';
+} from '@safecoin/lpl-candy-machine';
 import {
   Amount,
   BigNumber,

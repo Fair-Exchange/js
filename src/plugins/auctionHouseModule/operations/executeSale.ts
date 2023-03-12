@@ -9,7 +9,7 @@ import {
   createAuctioneerExecuteSaleInstruction,
   createExecuteSaleInstruction,
   createPrintPurchaseReceiptInstruction,
-} from '@leda-mint-io/lpl-auction-house';
+} from '@safecoin/lpl-auction-house';
 import {
   useOperation,
   Operation,

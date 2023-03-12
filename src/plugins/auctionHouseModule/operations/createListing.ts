@@ -7,7 +7,7 @@ import {
   createAuctioneerSellInstruction,
   createPrintListingReceiptInstruction,
   createSellInstruction,
-} from '@leda-mint-io/lpl-auction-house';
+} from '@safecoin/lpl-auction-house';
 import type { Metaplex } from '@/Metaplex';
 import type { SendAndConfirmTransactionResponse } from '../../rpcModule';
 import {

@@ -6,7 +6,7 @@ import {
 import { CandyMachineItem, CandyMachineEndSettings } from './models';
 import { BigNumber, DateTime, formatDateTime } from '@/types';
 import { Option } from '@/utils';
-import { EndSettingType } from '@leda-mint-io/lpl-candy-machine';
+import { EndSettingType } from '@safecoin/lpl-candy-machine';
 
 /** @group Errors */
 export class CandyMachineError extends MetaplexError {

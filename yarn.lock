@@ -462,9 +462,9 @@
   dependencies:
     eventemitter3 "^4.0.0"
 
-"@leda-mint-io/lpl-auction-house@^2.1.1":
+"@safecoin/lpl-auction-house@^2.1.1":
   version "2.1.11"
-  resolved "https://registry.yarnpkg.com/@leda-mint-io/lpl-auction-house/-/lpl-auction-house-2.1.11.tgz#1a5f47714d82c8ad76e8f1af79090a630fe46878"
+  resolved "https://registry.yarnpkg.com/@safecoin/lpl-auction-house/-/lpl-auction-house-2.1.11.tgz#1a5f47714d82c8ad76e8f1af79090a630fe46878"
   integrity sha512-x4QKW9ihFHtZ4uv4EpHd1apAbxdYZv2iclbdEZ/hxSNdHrxIFUBuUsMxMZLYm3TtBnClt3wctqDj0sZGiG3TjA==
   dependencies:
     "@j0nnyboi/beet" "^0.1.0"
@@ -474,9 +474,9 @@
     "@safecoin/web3.js" "^1.29.4"
     bn.js "^5.2.0"
 
-"@leda-mint-io/lpl-candy-machine@^4.2.1":
+"@safecoin/lpl-candy-machine@^4.2.1":
   version "4.2.1"
-  resolved "https://registry.yarnpkg.com/@leda-mint-io/lpl-candy-machine/-/lpl-candy-machine-4.2.1.tgz#efb4d5522dfe5a7077353c41ce06e22fa6473d87"
+  resolved "https://registry.yarnpkg.com/@safecoin/lpl-candy-machine/-/lpl-candy-machine-4.2.1.tgz#efb4d5522dfe5a7077353c41ce06e22fa6473d87"
   integrity sha512-OaVPxw4wcL+gEnlq55kpKZ3+5DmfRt5zcqg9RSSMg5Twifi5skF2eln0zHk4bifVfFPiZl97SlXBpvBMKyWrtw==
   dependencies:
     "@j0nnyboi/beet" "^0.1.1"

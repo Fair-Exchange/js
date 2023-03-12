@@ -20,7 +20,7 @@ import {
   createInitializeCandyMachineInstruction,
   createSetCollectionInstruction,
   Creator,
-} from '@leda-mint-io/lpl-candy-machine';
+} from '@safecoin/lpl-candy-machine';
 import { ConfirmOptions, Keypair, PublicKey } from '@safecoin/web3.js';
 import {
   findCollectionAuthorityRecordPda,

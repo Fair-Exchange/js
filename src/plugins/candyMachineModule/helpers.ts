@@ -2,7 +2,7 @@ import type { PublicKey } from '@safecoin/web3.js';
 import {
   CandyMachineData,
   configLineBeet,
-} from '@leda-mint-io/lpl-candy-machine';
+} from '@safecoin/lpl-candy-machine';
 import { CONFIG_ARRAY_START, CONFIG_LINE_SIZE } from './constants';
 import { CandyMachineItem } from './models';
 import { removeEmptyChars } from '@/utils';

@@ -1,4 +1,4 @@
-import { AuthorityScope } from '@leda-mint-io/lpl-auction-house';
+import { AuthorityScope } from '@safecoin/lpl-auction-house';
 import type { PublicKey } from '@safecoin/web3.js';
 import { Pda } from '@/types';
 import { assert } from '@/utils';

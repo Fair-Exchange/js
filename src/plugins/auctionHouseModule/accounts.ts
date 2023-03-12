@@ -4,7 +4,7 @@ import {
   ListingReceipt,
   BidReceipt,
   PurchaseReceipt,
-} from '@leda-mint-io/lpl-auction-house';
+} from '@safecoin/lpl-auction-house';
 import {
   Account,
   getAccountParsingAndAssertingFunction,

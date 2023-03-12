@@ -1,4 +1,4 @@
-import { PROGRAM_ID } from '@leda-mint-io/lpl-auction-house';
+import { PROGRAM_ID } from '@safecoin/lpl-auction-house';
 import { Metaplex } from '@/Metaplex';
 import {
   BidReceiptGpaBuilder,

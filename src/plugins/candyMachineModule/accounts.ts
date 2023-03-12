@@ -1,7 +1,7 @@
 import {
   CandyMachine,
   CollectionPDA,
-} from '@leda-mint-io/lpl-candy-machine';
+} from '@safecoin/lpl-candy-machine';
 import {
   Account,
   getAccountParsingAndAssertingFunction,

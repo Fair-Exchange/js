@@ -11,7 +11,7 @@ import { DisposableScope, TransactionBuilder } from '@/utils';
 import {
   createMintNftInstruction,
   createSetCollectionDuringMintInstruction,
-} from '@leda-mint-io/lpl-candy-machine';
+} from '@safecoin/lpl-candy-machine';
 import {
   ConfirmOptions,
   Keypair,
