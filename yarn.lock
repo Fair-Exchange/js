@@ -386,36 +386,36 @@
     secp256k1 "^4.0.2"
     tmp-promise "^3.0.2"
 
-"@j0nnyboi/beet-safecoin@^0.1.1":
+"@safecoin/beet-safecoin@^0.1.1":
   version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@j0nnyboi/beet-safecoin/-/beet-safecoin-0.1.1.tgz#17993573ff28314cc81b1a9d87aae1029a0d186b"
+  resolved "https://registry.yarnpkg.com/@safecoin/beet-safecoin/-/beet-safecoin-0.1.1.tgz#17993573ff28314cc81b1a9d87aae1029a0d186b"
   integrity sha512-BSJD7G31MLvhhqhKJg8v/iAtRkjl9tPvUo7GGs0rNdqekbwBgcXLwdYhlNhR+WrGedvq2VdK+v3NmjD8T3hjzA==
   dependencies:
-    "@j0nnyboi/beet" ">=0.1.1"
+    "@safecoin/beet" ">=0.1.1"
     "@safecoin/web3.js" "^1.29.4"
 
-"@j0nnyboi/beet-safecoin@^0.3.0":
+"@safecoin/beet-safecoin@^0.3.0":
   version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@j0nnyboi/beet-safecoin/-/beet-safecoin-0.3.0.tgz#e71a1e5ee99716f55c48de1574c5d26616ecacdf"
+  resolved "https://registry.yarnpkg.com/@safecoin/beet-safecoin/-/beet-safecoin-0.3.0.tgz#e71a1e5ee99716f55c48de1574c5d26616ecacdf"
   integrity sha512-HHJczv/HVM3OXYPmeWQTMPZA3kJO4l/Tgdyr2KK+uOXP5BCvLKK8cl1fODFkZEQm8poKto8c8bFNIMm5ADTVUg==
   dependencies:
-    "@j0nnyboi/beet" ">=0.1.0"
+    "@safecoin/beet" ">=0.1.0"
     "@safecoin/web3.js" "^1.44.0"
     bs58 "^5.0.0"
     debug "^4.3.4"
 
-"@j0nnyboi/beet@>=0.1.0", "@j0nnyboi/beet@>=0.1.1", "@j0nnyboi/beet@^0.4.0":
+"@safecoin/beet@>=0.1.0", "@safecoin/beet@>=0.1.1", "@safecoin/beet@^0.4.0":
   version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@j0nnyboi/beet/-/beet-0.4.1.tgz#af37f04624e9f5c5f17a86550fa01bae79353a42"
+  resolved "https://registry.yarnpkg.com/@safecoin/beet/-/beet-0.4.1.tgz#af37f04624e9f5c5f17a86550fa01bae79353a42"
   integrity sha512-7pAQQcIdYA8q98aOXU04g+bhIgVpjR5r3X9RzS2stVuZ5U7hTSXiRD0qZKlY5Scx7Xcv0yNuCJZnnZgNEUGARg==
   dependencies:
     ansicolors "^0.3.2"
     bn.js "^5.2.0"
     debug "^4.3.3"
 
-"@j0nnyboi/beet@^0.1.0", "@j0nnyboi/beet@^0.1.1":
+"@safecoin/beet@^0.1.0", "@safecoin/beet@^0.1.1":
   version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@j0nnyboi/beet/-/beet-0.1.1.tgz#836d0298cc498b37a4c51d308b0eb4b3d3892af3"
+  resolved "https://registry.yarnpkg.com/@safecoin/beet/-/beet-0.1.1.tgz#836d0298cc498b37a4c51d308b0eb4b3d3892af3"
   integrity sha512-Uof5XTSKIgFpXlc74jGiBuX8IEUgr2UGSO08IySbRgKfO85xC0C+r4pva0kE05wcGPL6Q1tE8VblF9YpEN2Yag==
   dependencies:
     ansicolors "^0.3.2"
@@ -467,8 +467,8 @@
   resolved "https://registry.yarnpkg.com/@safecoin/lpl-auction-house/-/lpl-auction-house-2.1.11.tgz#1a5f47714d82c8ad76e8f1af79090a630fe46878"
   integrity sha512-x4QKW9ihFHtZ4uv4EpHd1apAbxdYZv2iclbdEZ/hxSNdHrxIFUBuUsMxMZLYm3TtBnClt3wctqDj0sZGiG3TjA==
   dependencies:
-    "@j0nnyboi/beet" "^0.1.0"
-    "@j0nnyboi/beet-safecoin" "^0.1.1"
+    "@safecoin/beet" "^0.1.0"
+    "@safecoin/beet-safecoin" "^0.1.1"
     "@leda-mint-io/lpl-core" "^0.0.51"
     "@safecoin/cusper" "^0.0.2"
     "@safecoin/web3.js" "^1.29.4"
@@ -479,8 +479,8 @@
   resolved "https://registry.yarnpkg.com/@safecoin/lpl-candy-machine/-/lpl-candy-machine-4.2.1.tgz#efb4d5522dfe5a7077353c41ce06e22fa6473d87"
   integrity sha512-OaVPxw4wcL+gEnlq55kpKZ3+5DmfRt5zcqg9RSSMg5Twifi5skF2eln0zHk4bifVfFPiZl97SlXBpvBMKyWrtw==
   dependencies:
-    "@j0nnyboi/beet" "^0.1.1"
-    "@j0nnyboi/beet-safecoin" "^0.1.1"
+    "@safecoin/beet" "^0.1.1"
+    "@safecoin/beet-safecoin" "^0.1.1"
     "@leda-mint-io/lpl-core" "^0.0.51"
     "@safecoin/cusper" "^0.0.2"
     "@safecoin/web3.js" "^1.29.4"
@@ -499,8 +499,8 @@
   resolved "https://registry.yarnpkg.com/@safecoin/lpl-token-metadata/-/lpl-token-metadata-2.2.4.tgz#df4a12fdf655f46d229082c76eb37c6dd5318eac"
   integrity sha512-IdBE+2XVpmRURBF1Jjmshr7oRrI/GcfoXno8M3FCHgP+T/cXPktrHOeU8NIqU8DKIvfjW9MNOp3OvrYhO2bthQ==
   dependencies:
-    "@j0nnyboi/beet" "^0.1.1"
-    "@j0nnyboi/beet-safecoin" "^0.1.1"
+    "@safecoin/beet" "^0.1.1"
+    "@safecoin/beet-safecoin" "^0.1.1"
     "@j0nnyboi/cusper" "^0.0.1"
     "@safecoin/safe-token" "^0.2.2"
     "@safecoin/web3.js" "^1.44.3"
