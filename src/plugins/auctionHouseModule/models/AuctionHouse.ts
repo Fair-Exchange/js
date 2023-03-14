@@ -110,6 +110,7 @@ export const toAuctionHouse = (
           auctioneer: {
             address: auctioneerAccount.publicKey,
             authority: auctioneerAccount.data.auctioneerAuthority,
+	    // @ts-ignore
             scopes: auctioneerAccount.data.scopes.reduce<number[]>(
               (acc, isAllowed, index) => (isAllowed ? [...acc, index] : acc),
               [] as number[]

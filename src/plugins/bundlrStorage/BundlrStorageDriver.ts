@@ -1,5 +1,5 @@
-import type { default as NodeBundlr, WebBundlr } from '@bundlr-network/client';
-import * as _BundlrPackage from '@bundlr-network/client';
+import type { default as NodeBundlr, WebBundlr } from '@safecoin/client';
+import * as _BundlrPackage from '@safecoin/client';
 import BigNumber from 'bignumber.js';
 import { Metaplex } from '@/Metaplex';
 import {

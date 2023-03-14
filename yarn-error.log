@@ -1,0 +1,114 @@
+Arguments: 
+  /home/sol/.nvm/versions/node/v16.19.1/bin/node /home/sol/.nvm/versions/node/v16.19.1/bin/yarn install
+
+PATH: 
+  /home/sol/.nvm/versions/node/v16.19.1/bin:/home/sol/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sol/.rvm/bin:/home/sol/Safecoin/target/release:/home/sol/.rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@safecoin%2fclient: Not found
+      at Request.params.callback [as _callback] (/home/sol/.nvm/versions/node/v16.19.1/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/home/sol/.nvm/versions/node/v16.19.1/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/home/sol/.nvm/versions/node/v16.19.1/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/home/sol/.nvm/versions/node/v16.19.1/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "@safecoin/js",
+    "version": "0.15.0",
+    "sideEffects": false,
+    "module": "dist/esm/index.mjs",
+    "main": "dist/cjs/index.cjs",
+    "types": "dist/types/index.d.ts",
+    "exports": {
+      ".": {
+        "import": "./dist/esm/index.mjs",
+        "require": "./dist/cjs/index.cjs"
+      }
+    },
+    "files": [
+      "/dist/cjs",
+      "/dist/esm",
+      "/dist/types",
+      "/src"
+    ],
+    "publishConfig": {
+      "access": "public"
+    },
+    "license": "MIT",
+    "description": "Metaplex JavaScript SDK",
+    "keywords": [
+      "nft",
+      "metaplex",
+      "solana",
+      "blockchain"
+    ],
+    "author": "Metaplex Maintainers <contact@metaplex.com>",
+    "homepage": "https://metaplex.com",
+    "repository": {
+      "url": "https://github.com/metaplex-foundation/js.git"
+    },
+    "scripts": {
+      "clean": "rimraf dist",
+      "build": "yarn clean && tsc && tsc-alias && tsc -p test/tsconfig.json && tsc-alias -p test/tsconfig.json && rollup -c",
+      "test": "tape dist/test/**/*.test.js && yarn test:exports",
+      "test:exports": "node ./test/cjs-export.test.cjs && node ./test/esm-export.test.mjs",
+      "preversion": "yarn build",
+      "postversion": "git push --follow-tags"
+    },
+    "dependencies": {
+      "@safecoin/client": "^0.7.3",
+      "@safecoin/beet": "^0.4.0",
+      "@safecoin/beet-safecoin": "^0.3.0",
+      "@safecoin/lpl-auction-house": "^2.1.1",
+      "@safecoin/lpl-candy-machine": "^4.2.1",
+      "@safecoin/lpl-token-metadata": "^2.2.2",
+      "@safecoin/safe-token": "^0.2.2",
+      "@safecoin/web3.js": "^1.44.3",
+      "abort-controller": "^3.0.0",
+      "bignumber.js": "^9.0.2",
+      "bn.js": "^5.2.0",
+      "bs58": "^5.0.0",
+      "buffer": "^6.0.3",
+      "cross-fetch": "^3.1.5",
+      "debug": "^4.3.4",
+      "eventemitter3": "^4.0.7",
+      "lodash.clonedeep": "^4.5.0",
+      "lodash.isequal": "^4.5.0",
+      "mime": "^3.0.0",
+      "tweetnacl": "^1.0.3"
+    },
+    "engines": {
+      "node": ">=16.0"
+    },
+    "browserslist": [
+      "defaults",
+      "not IE 11",
+      "maintained node versions"
+    ],
+    "typedoc": {
+      "entryPoint": "./src/index.ts",
+      "readmeFile": "./README.md",
+      "displayName": "js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

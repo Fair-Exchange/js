@@ -42,11 +42,11 @@
     "postversion": "git push --follow-tags"
   },
   "dependencies": {
-    "@safecoin/client": "^0.7.3",
     "@safecoin/beet": "^0.4.0",
     "@safecoin/beet-safecoin": "^0.3.0",
+    "@safecoin/client": "^0.7.3",
     "@safecoin/lpl-auction-house": "^2.1.1",
-    "@safecoin/lpl-candy-machine": "^4.2.1",
+    "@safecoin/lpl-candy-machine": "^5.1.2",
     "@safecoin/lpl-token-metadata": "^2.2.2",
     "@safecoin/safe-token": "^0.2.2",
     "@safecoin/web3.js": "^1.44.3",
@@ -75,5 +75,9 @@
     "entryPoint": "./src/index.ts",
     "readmeFile": "./README.md",
     "displayName": "js"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.7",
+    "@types/mime": "^3.0.1"
   }
 }
