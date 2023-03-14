@@ -12,6 +12,7 @@ export const toPublicKey = (value: PublicKeyValues): PublicKey => {
   }
 
   if (typeof value === 'object' && 'address' in value) {
+  // @ts-ignore
     return value.address;
   }
 
