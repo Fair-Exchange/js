@@ -112,6 +112,7 @@ export const toAuctionHouse = (
             authority: auctioneerAccount.data.auctioneerAuthority,
 	    // @ts-ignore
             scopes: auctioneerAccount.data.scopes.reduce<number[]>(
+	    // @ts-ignore
               (acc, isAllowed, index) => (isAllowed ? [...acc, index] : acc),
               [] as number[]
             ),
